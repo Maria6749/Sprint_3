@@ -1,0 +1,26 @@
+#Регистрация
+
+.//input[@class='text input__textfield text_type_main-default'] #Поле Имя
+.//fieldset[2]//input[@class='text input__textfield text_type_main-default'] # Поле Email
+.//input[@name='Пароль'] #Поле пароль
+.//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa'] #Кнопка зарегистрироваться
+
+# Вход
+.//p[text()='Личный Кабинет'] #Кнопка личный кабинет на главной
+.//button[text()='Войти в аккаунт'] #Кнопка войти в аккаунт на главной
+.//input[@name='name'] #Поле ввода Email
+.//input[@name='name'] #Поле пароль
+.//button[text()='Войти'] #Кнопка войти
+.//button[text()='Оформить заказ'] #Кнопка оформить заказ после входа в аккаунт
+
+# Личный кабинет
+.//a[text()='Профиль'] #Надпись после перехода в личный кабинет
+
+#Конструктор 
+.//p[text()='Конструктор']" #Кнопка конструткора 
+
+#Выход 
+.//button[text()='Выход'] #Кнопка выход 
+.//h2[text()='Вход'] #Надпись входа после выхода из аккаунта 
+
+
